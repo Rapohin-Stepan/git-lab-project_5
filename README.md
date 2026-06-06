@@ -28,12 +28,19 @@ Telegram-бот, позволяющий находить синонимы к с�
 ## 📁 Структура проекта
 
 synonym_bot/
+
 ├── main.py # Точка входа, обработчики команд Telegram
+
 ├── api.py # Модуль работы с внешними API (вынесен отдельно)
+
 ├── requirements.txt # Зависимости проекта
+
 ├── .env # Файл с токеном бота (не добавляется в Git)
+
 ├── .gitignore # Исключения для Git
+
 └── README.md # Документация проекта
+
 
 ## 📦 Установка и запуск
 
@@ -41,21 +48,21 @@ synonym_bot/
 
 ```bash
 git clone https://github.com/Rapohin-Stepan/git-lab-project_5.git
-cd git-lab-project_5
+cd git-lab-project_5```
 
 ###Создание виртуального окружения
 
 Windows:
-python -m venv venv
-venv\Scripts\activate
+```python -m venv venv
+venv\Scripts\activate```
 
 macOS / Linux:
-python3 -m venv venv
-source venv/bin/activate
+```python3 -m venv venv
+source venv/bin/activate```
 
 ###Установка зависимостей
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 ###Получение токена бота
 
@@ -70,18 +77,18 @@ BOT_TOKEN=ваш_токен_от_BotFather
 
 ###Запуск бота
 
-python main.py
+```python main.py```
 
 При успешном запуске в консоли появится сообщение:
-2026-06-06 12:00:00,000 - INFO - ✅ Бот запущен и ожидает сообщения...
+```2026-06-06 12:00:00,000 - INFO - ✅ Бот запущен и ожидает сообщения...
 2026-06-06 12:00:00,001 - INFO - Start polling
-2026-06-06 22:36:01,992 - INFO - Run polling for bot @user_search_synonym_bot id=... - 'synonym_bot_1'
+2026-06-06 22:36:01,992 - INFO - Run polling for bot @user_search_synonym_bot id=... - 'synonym_bot_1'```
 
 ##Команды бота
 
-/start - Приветственное сообщение и запуск бота
-/help - Справка по доступным командам
-/synonym <слово> - Поиск синонимов к указанному слову
+```/start - Приветственное сообщение и запуск бота```
+```/help - Справка по доступным командам```
+```/synonym <слово> - Поиск синонимов к указанному слову```
 
 ##🛡 Безопасность
 
