@@ -48,21 +48,28 @@ synonym_bot/
 
 ```bash
 git clone https://github.com/Rapohin-Stepan/git-lab-project_5.git
-cd git-lab-project_5```
+cd git-lab-project_5
+```bash
 
 ###Создание виртуального окружения
 
 Windows:
-```python -m venv venv
-venv\Scripts\activate```
+```bash
+python -m venv venv
+venv\Scripts\activate
+```bash
 
 macOS / Linux:
-```python3 -m venv venv
-source venv/bin/activate```
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```bash
 
 ###Установка зависимостей
 
-```pip install -r requirements.txt```
+```bash
+pip install -r requirements.txt
+```bash
 
 ###Получение токена бота
 
@@ -77,18 +84,27 @@ BOT_TOKEN=ваш_токен_от_BotFather
 
 ###Запуск бота
 
-```python main.py```
+```bash
+python main.py
+```bash
 
 При успешном запуске в консоли появится сообщение:
-```2026-06-06 12:00:00,000 - INFO - ✅ Бот запущен и ожидает сообщения...
+```bash
+2026-06-06 12:00:00,000 - INFO - ✅ Бот запущен и ожидает сообщения...
 2026-06-06 12:00:00,001 - INFO - Start polling
-2026-06-06 22:36:01,992 - INFO - Run polling for bot @user_search_synonym_bot id=... - 'synonym_bot_1'```
+2026-06-06 22:36:01,992 - INFO - Run polling for bot @user_search_synonym_bot id=... - 'synonym_bot_1'
+```bash
 
 ##Команды бота
 
-```/start - Приветственное сообщение и запуск бота```
-```/help - Справка по доступным командам```
-```/synonym <слово> - Поиск синонимов к указанному слову```
+```bash
+/start - Приветственное сообщение и запуск бота
+```bash
+```bash/help - Справка по доступным командам
+```bash
+```bash
+/synonym <слово> - Поиск синонимов к указанному слову
+```bash
 
 ##🛡 Безопасность
 
