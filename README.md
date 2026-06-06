@@ -49,7 +49,7 @@ synonym_bot/
 ```bash
 git clone https://github.com/Rapohin-Stepan/git-lab-project_5.git
 cd git-lab-project_5
-```bash
+```
 
 ###Создание виртуального окружения
 
@@ -57,19 +57,19 @@ Windows:
 ```bash
 python -m venv venv
 venv\Scripts\activate
-```bash
+```
 
 macOS / Linux:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-```bash
+```
 
 ###Установка зависимостей
 
 ```bash
 pip install -r requirements.txt
-```bash
+```
 
 ###Получение токена бота
 
@@ -86,25 +86,26 @@ BOT_TOKEN=ваш_токен_от_BotFather
 
 ```bash
 python main.py
-```bash
+```
 
 При успешном запуске в консоли появится сообщение:
 ```bash
 2026-06-06 12:00:00,000 - INFO - ✅ Бот запущен и ожидает сообщения...
 2026-06-06 12:00:00,001 - INFO - Start polling
 2026-06-06 22:36:01,992 - INFO - Run polling for bot @user_search_synonym_bot id=... - 'synonym_bot_1'
-```bash
+```
 
 ##Команды бота
 
 ```bash
 /start - Приветственное сообщение и запуск бота
+```
 ```bash
-```bash/help - Справка по доступным командам
-```bash
+/help - Справка по доступным командам
+```
 ```bash
 /synonym <слово> - Поиск синонимов к указанному слову
-```bash
+```
 
 ##🛡 Безопасность
 
